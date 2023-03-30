@@ -132,6 +132,7 @@ section img:hover{
   border-radius: 30px;
   position: relative;
   bottom: 20px;
+  margin-bottom: 20px;
 }
 /*------------------------------------Boton para nuestras redes------------------------------------------*/
 .marco2 {
@@ -236,6 +237,7 @@ section img:hover{
   color: #e94f37;
 }
 
+
 #imag{
 padding-left: 20%;
 padding-top: 20%;
@@ -317,4 +319,34 @@ footer div p{
   .carousel-caption{
     color: black;
   }
-}   
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+.carousel-caption a {
+  font-size: 2rem; 
+  padding: 10px 20px; 
+}
+
+@media (max-width: 768px) {
+  .carousel-caption a {
+    font-size: 1.5rem; 
+    padding: 5px 10px; 
+  }
+} 
+
+}  

@@ -57,7 +57,7 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBuscar">Buscar</button>
             </form>
             <div>
-                <a href="login.html" id="AnimaliaUser">
+                <a href="Inicio.html" id="AnimaliaUser">
                     <img src="img/user-vector-icon.png" alt="AnimaliaUser" width="30px">Iniciar sesión / Registrarse 
                 </a>
             </div>
@@ -65,89 +65,92 @@
     </nav>
 <!--Aqui termina pagina de navegacion-->
 <div class="container-fluid">
-    <div id= "carousel1" class="carousel slide" data-ride= "carousel" data-interval="5000">
-        <ol class = "carousel-indicators">
-          <li data-target="#carousel1" data-slide-to= "0" class="active"></li>
-          <li data-target="#carousel1" data-slide-to= "1"></li>
-          <li data-target="#carousel1" data-slide-to= "2"></li>
-        </ol>
-                    <!--configuramos las imagenes y sus deslizamientos-->
-        <div class="carousel-inner">
-                <!--configuramos la primera ubicacion del carrusel-->
-            <div class="carousel-item active">
-                <img src="img/mascotas 6.png" width="600px" height="600px" class="d-block w-100">
-                  <div class ="carousel-caption d-none d-md-block">
-                    <a  href="Tienda.html" class="marco1"  >Ir a la tienda</a>
-                        <h3>¡Nuevos articulos!</h3>
-                        <p>Acaban de llegar nuevos articulos a nuestra tienda, ¡no te los puedes perder!</p>
-                  </div>
-            </div><!--cerramos la primra foto-->
-            <!--diapostivas-->
-            <div class= "carousel-item">
-                <img src= "img/mascotas 3.jpg" width="600px" height="600px"  class="d-block w-100">
-                <div class="carousel-caption">
-                    <a  href="Mision.html" class="marco1"  >Nuestra Mision</a>
-                    <h3>Descubre nuestros objetivos</h3>
-                    <p>Aquí podras encontrar nuestro objetivos en mente, tambien a las fundaciones a las cuales va el dinero</p>
-                </div>
-            </div>
-
-            <div class= "carousel-item">
-                <img src= "img/mascotas 4.png" width="600px" height="600px"  class= "d-block w-100">
-                <div class ="carousel-caption">
-                    <a  href="Inicio.html" class="marco1"  >Siguenos</a>
-                    <h3>Siguenos en nuestras redes</h3>
-                    <p>Damos las mejores ofertas y promociones, no te las pierdas y sigue nuestras redes</p>
-                </div>
-            </div>
+    <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+      </ol>
+      <!--configuramos las imagenes y sus deslizamientos-->
+      <div class="carousel-inner">
+        <!--configuramos la primera ubicacion del carrusel-->
+        <div class="carousel-item active">
+          <img src="img/mascotas 6.png" class="d-block w-100" alt="Nuevos articulos">
+          <div class="carousel-caption ">
+            <a href="Tienda.html" class="marco1">Ir a la tienda</a>
+            <h3>¡Nuevos articulos!</h3>
+            <p>Acaban de llegar nuevos articulos a nuestra tienda, ¡no te los puedes perder!</p>
+          </div>
+        </div><!--cerramos la primera foto-->
+        <!--diapositivas-->
+        <div class="carousel-item">
+          <img src="img/mascotas 3.png" class="d-block w-100" alt="Nuestra Mision">
+          <div class="carousel-caption">
+            <a href="Mision.html" class="marco1">Nuestra Mision</a>
+            <h3>Descubre nuestros objetivos</h3>
+            <p>Aquí podras encontrar nuestra mision y Visión</p>
+          </div>
         </div>
-
-        <a class="carousel-control-prev" href= "#carousel1" data-slide="prev">
-            <span class= "carousel-control-prev-icon"aria-hidden="true"></span>
-            <span class= "sr-only>"></span>
-        </a>
-
-        <a class="carousel-control-next" href= "#carousel1" data-slide= "next">
-            <span class="carousel-control-next-icon"aria-hidden="true"></span>
-            <span class="sr-only>"></span>
-        </a>
+  
+        <div class="carousel-item">
+          <img src="img/mascotas 4.jpg" class="d-block w-100" alt="Siguenos en nuestras redes">
+          <div class="carousel-caption">
+            <a href="Inicio.html" class="marco1">Siguenos</a>
+            <h3>Siguenos en nuestras redes</h3>
+            <p>Damos las mejores ofertas y promociones, no te las pierdas y sigue nuestras redes</p>
+          </div>
+        </div>
+      </div>
+  
+      <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+  
+      <a class="carousel-control-next" href="#carousel1" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
     </div>
+  </div>
 </div>
                                                 <!-- aqui comienzaprimer mensaje-->
     <main role="main" class="container">
-        <div class="row jumbotron" id="qSomos">
-            <div class="col-lg-6">
+        <div class="container border rounded p-3" >
+            <div class="row jumbotron" id="qSomos">
+              <div class="col-md-6">
                 <div>
-                    <h1>Animalia Store</h1><br>
-                    <h2 class="lead"><strong>Quiénes somos</strong></h2>
-                    <p>
-                        Nosotros somos unos entusiastas de los animales que buscan ayudar tanto a una fundacion sin fines de lucro
-                        como a ustedes a obtener los mejores productos para mascotas que podran encontrar <br><br>
-
-                        Nuestros usuarios desde la primera compra, notarán el como nuestros productos vienen de personas
-                        que saben del cuidado de animales <br><br> <strong> ¡Bienvenid@s a
-                            Animalia Store!</strong> 
-                    </p>
-                    <a href="Inicio.html" class="marco2">Nuestras redes</a>
+                    
+                  <h1>Animalia Store</h1><br>
+                  <h2 class="lead"><strong>Quiénes somos</strong></h2>
+                  <p>
+                    Nosotros somos unos entusiastas de los animales que buscan ayudar tanto a una fundacion sin fines de lucro
+                    como a ustedes a obtener los mejores productos para mascotas que podran encontrar <br><br>
+          
+                    Nuestros usuarios desde la primera compra, notarán el como nuestros productos vienen de personas
+                    que saben del cuidado de animales <br><br> <strong> ¡Bienvenid@s a
+                      Animalia Store!</strong> 
+                  </p>
+                  <a href="Inicio.html" class="marco2">Nuestras redes</a>
                 </div>
-            </div>
-            <div class="col-lg-6">
+              </div>
+              <div class="col-md-6">
                 <section>
-                    <img src="img/perroA.jpg">
-                    <img src="img/gatoA.jpg">  
-                    <img src="img/PerroB.webp">  
-                    <img src="img/GatoB.jpg">    
+                  <img src="img/perroA.jpg" class="img-fluid d-block mx-auto mb-3">
+                  <img src="img/gatoA.jpg" class="img-fluid d-block mx-auto mb-3">  
+                  <img src="img/PerroB.webp" class="img-fluid d-block mx-auto mb-3">  
+                  <img src="img/GatoB.jpg" class="img-fluid d-block mx-auto mb-3">    
                 </section> 
+              </div>
             </div>
-        </div>
-        
+        </div> 
                                                 <!-- aqui comienza el segundo-->    
         <hr>
         <div class="container border rounded p-3">
             <div class="row jumbotron" id="qSomos2">
                 <div class="col-lg-6">
                     <div>
-                        <img src="img/mascotas.jpg" width="550px" height="400px">
+                        <img src="img/mascotas.jpg" class="d-block w-100">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -166,85 +169,48 @@
         </div>
 
         <hr><br>
-        <div>
-            <h3  style="color: #BD1E1E" ><strong>Articulos recomendados de la semana</strong></h3><br>
-            <div class="container border rounded p-4">
-                <div class="row jumbotron" id="qSomos2">
-                    <div class="col-lg-4">
-                        <div>
-                            <img src="img/arena.png" alt="imagen" class="img-fluid imagen" width="200px" height="200px">
-                        </div>
+        <h3 class="lead" id="Otrotexto4"><strong> Nuestros Productos más vendidos</strong></h3><br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 1.jpg"  width="250" height="250" alt="" >
+                    <div class="card-body">
+                        <h4 class="card-title">Jaula Para Aves</h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$59.990 <br> Una conveniente jaula hecha para aves <br>
+                            <i class="fa fa-eye"></i> 406.117 </p>
+                            <a href="#" class="btn btn-primary col-12">Comprar</a>
                     </div>
-                    <div class="col-lg-4">
-                        <h2>Caja de arena Sunrise </h2><br>
-                            <h2 class="lead"><strong>Los productos que vendemos</strong></h2>
-                            <p>
-                                Ideales modelos para gatos modernos que requieren soluciones modernas
-                            </p>
-                            <p id="Otrotexto3">        
-                                Numero 1 en venta, no te lo pierdas!
-                            </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 2.jpg" width="250" height="250"  alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Collares de colores</h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$5.990 <br> Distintos collares con diseño a eleccion <br>
+                            <i class="fa fa-eye"></i> 356.117 </p>
+                            <a href="#" class="btn btn-primary col-12">Comprar</a>
                     </div>
-                    <div class="col-lg-4">
-                        <a href="Inicio.html" class="marco3"> Ver el producto</a>      
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 3.jpg" width="250" height="250" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Plumero  </h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$1.990 <br>Plumeros varios, los favoritos de los gatos <br>
+                            <i class="fa fa-eye"></i> 307.541 </p>
+                        <a href="#" class="btn btn-primary col-12">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-                                            <!-- segundo item de compraaaaaaaaaaaaaaaaaa-->
-        <div class="container border rounded p-4">
-            <div class="row jumbotron" id="qSomos2">
-                <div class="col-lg-4">
-                    <div id="imag">
-                        <a href="Inicio.html" class="marco4"> Ver el producto</a>  
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <h2>Collares Modelo galaxy 9</h2><br>
-                        <h2 class="lead"><strong>Los productos que vendemos</strong></h2>
-                        <p>
-                            Collares de otro planeta, con chips de busqueda integrados, con spotify por si se aburre
-                        </p>
-                        <p id="Otrotexto3">        
-                            Numero 2 en venta, no te lo pierdas!
-                        </p>
-                </div>
-                <div class="col-lg-3" >      
-                    <img src="img/collar.jpg" alt="imagen" class="img-fluid imagen" width="200px" height="200px" >
-                </div>
-            </div>
-        </div>
-                                                <!-- tercer item de compraaaaaaaaaaaaaaaaaa-->
-            <div class="container border rounded p-4">
-                <div class="row jumbotron" id="qSomos2">
-                    <div class="col-lg-4">
-                        <div>
-                            <img src="img/Juguete.png" alt="imagen" class="img-fluid imagen" width="200px" height="200px">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Juguetes caracol</h2><br>
-                            <h2 class="lead"><strong>Los productos que vendemos</strong></h2>
-                            <p>
-                                Es un juguete con forma de caracol, ¿hace falta decir más?
-                            </p>
-                            <p id="Otrotexto3">        
-                                Numero 3 en venta, no te lo pierdas!
-                            </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <a href="Inicio.html" class="marco3"> Ver el producto</a>      
-
-                    </div>
-                </div>
-            </div>
-        </div>
         <hr><br>        
     </main><br>
     
     <!--desde aqui comienza el footer-->
-    <footer>
+    <footer >
         <div class="row col-12">
             <div class="col-lg-3">
                 <img src="img/Logo.png" alt="logoAnimalia" width="250" height="90">
@@ -275,10 +241,7 @@
                     </a>     
                 </div>
             </div>
-
-
             <div class="col-lg-3">
-
                 <strong>Contacto</strong>
                 <br><br>
                 <div class="row">
